@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_98233b1e55c7a83c48738731f24ff627 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_98233b1e55c7a83c48738731f24ff627" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_98233b1e55c7a83c48738731f24ff627 = L.map(
+                "map_98233b1e55c7a83c48738731f24ff627",
+                {
+                    center: [56.165442999999996, 10.178581691836735],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec6f8ee9f6bc0351196547bc73d24ecf = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_ec6f8ee9f6bc0351196547bc73d24ecf.addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var marker_4e164169c6479df4677a39258dfe3e36 = L.marker(
+                [56.166771, 10.137611],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_398563770913dd73747b85f68700edee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_4e164169c6479df4677a39258dfe3e36.setIcon(icon_398563770913dd73747b85f68700edee);
+        
+    
+            marker_4e164169c6479df4677a39258dfe3e36.bindTooltip(
+                `<div>
+                     School: Stensagerskolen<br>Postal District: Brabrand<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95eb9f297df530f8ba25fea9443e10f0 = L.marker(
+                [56.253349, 10.148964],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_2a2ac8bb4b135018a50c280d4de4c9c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_95eb9f297df530f8ba25fea9443e10f0.setIcon(icon_2a2ac8bb4b135018a50c280d4de4c9c7);
+        
+    
+            marker_95eb9f297df530f8ba25fea9443e10f0.bindTooltip(
+                `<div>
+                     School: Bakkegårdsskolen<br>Postal District: Trige<br>SID: 22224
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef1f347532c6871ee2cf5fdeae3b9d4d = L.marker(
+                [56.203037, 10.217692],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_c1d07c4abf285288b539459f98f465b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_ef1f347532c6871ee2cf5fdeae3b9d4d.setIcon(icon_c1d07c4abf285288b539459f98f465b1);
+        
+    
+            marker_ef1f347532c6871ee2cf5fdeae3b9d4d.bindTooltip(
+                `<div>
+                     School: Ellevangskolen<br>Postal District: Risskov<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f8f2ef8d4c60cc7e050262fd2f4a934 = L.marker(
+                [56.061577, 10.21161],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_d0090e2a1a4392372ee0e0d3d31ea613 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_6f8f2ef8d4c60cc7e050262fd2f4a934.setIcon(icon_d0090e2a1a4392372ee0e0d3d31ea613);
+        
+    
+            marker_6f8f2ef8d4c60cc7e050262fd2f4a934.bindTooltip(
+                `<div>
+                     School: Beder Skole<br>Postal District: Beder<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d994f96ec5de321e4a16ca6c214bb81 = L.marker(
+                [56.241188, 10.199622],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_868830e482f87dfd762ff7fe005f6dd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_4d994f96ec5de321e4a16ca6c214bb81.setIcon(icon_868830e482f87dfd762ff7fe005f6dd0);
+        
+    
+            marker_4d994f96ec5de321e4a16ca6c214bb81.bindTooltip(
+                `<div>
+                     School: Elev Skole<br>Postal District: Lystrup<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1996b46ebf218c3ef2ef4427af99efd1 = L.marker(
+                [56.241524, 10.228948],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_62ef19b40e90bc42ca4843806d740c2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_1996b46ebf218c3ef2ef4427af99efd1.setIcon(icon_62ef19b40e90bc42ca4843806d740c2b);
+        
+    
+            marker_1996b46ebf218c3ef2ef4427af99efd1.bindTooltip(
+                `<div>
+                     School: Elsted Skole<br>Postal District: Lystrup<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5397145b65ef90bd8db5ef6449399e2 = L.marker(
+                [56.152943, 10.109608],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_828467dfa7fdae27b107dc384838c495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_c5397145b65ef90bd8db5ef6449399e2.setIcon(icon_828467dfa7fdae27b107dc384838c495);
+        
+    
+            marker_c5397145b65ef90bd8db5ef6449399e2.bindTooltip(
+                `<div>
+                     School: Engdalskolen<br>Postal District: Brabrand<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a2e1021a6dcb479699ea9424679f26e = L.marker(
+                [56.159332, 10.157077],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_e6ca413706ce7168306e2b2a373cbc1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_3a2e1021a6dcb479699ea9424679f26e.setIcon(icon_e6ca413706ce7168306e2b2a373cbc1c);
+        
+    
+            marker_3a2e1021a6dcb479699ea9424679f26e.bindTooltip(
+                `<div>
+                     School: Gammelgaardsskolen<br>Postal District: Åbyhøj<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_baa0978229e166295bf40e3ba54186dd = L.marker(
+                [56.150375, 10.136786],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_850eb543585f18a2099574b18e773b93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_baa0978229e166295bf40e3ba54186dd.setIcon(icon_850eb543585f18a2099574b18e773b93);
+        
+    
+            marker_baa0978229e166295bf40e3ba54186dd.bindTooltip(
+                `<div>
+                     School: Sødalskolen<br>Postal District: Brabrand<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a06b5c1a7fa7fc8f8fcea043b46f037d = L.marker(
+                [56.169296, 10.16368],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_1f8583bf937c506490437e029ad1c215 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a06b5c1a7fa7fc8f8fcea043b46f037d.setIcon(icon_1f8583bf937c506490437e029ad1c215);
+        
+    
+            marker_a06b5c1a7fa7fc8f8fcea043b46f037d.bindTooltip(
+                `<div>
+                     School: Hasle Skole<br>Postal District: Aarhus V<br>SID: 16022
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e1bb4dbca56bb277db62d891e66c592 = L.marker(
+                [56.106026, 10.096877],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_f583bbf5a421a86f0eeff6c4d948da7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_6e1bb4dbca56bb277db62d891e66c592.setIcon(icon_f583bbf5a421a86f0eeff6c4d948da7a);
+        
+    
+            marker_6e1bb4dbca56bb277db62d891e66c592.bindTooltip(
+                `<div>
+                     School: Bavnehøj Skole<br>Postal District: Hasselager<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f5a9093cac87f0bd694b99dd7b180ad = L.marker(
+                [56.116238, 10.178248],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_3edac75636f3b0fdf00a955011349455 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5f5a9093cac87f0bd694b99dd7b180ad.setIcon(icon_3edac75636f3b0fdf00a955011349455);
+        
+    
+            marker_5f5a9093cac87f0bd694b99dd7b180ad.bindTooltip(
+                `<div>
+                     School: Holme Skole<br>Postal District: Højbjerg<br>SID: 16008
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acf606af1993897c51bdb3fae9a29634 = L.marker(
+                [56.129898, 10.115003],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_64e8a3c7c14a64fba1b3cba5841a2883 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_acf606af1993897c51bdb3fae9a29634.setIcon(icon_64e8a3c7c14a64fba1b3cba5841a2883);
+        
+    
+            marker_acf606af1993897c51bdb3fae9a29634.bindTooltip(
+                `<div>
+                     School: Højvangskolen<br>Postal District: Viby J<br>SID: 54388
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f58942f7b73379cb6d86ce9cbc23f2d = L.marker(
+                [56.173824, 10.196321],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_4394d22a893ef55285c22b60834bd73f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_1f58942f7b73379cb6d86ce9cbc23f2d.setIcon(icon_4394d22a893ef55285c22b60834bd73f);
+        
+    
+            marker_1f58942f7b73379cb6d86ce9cbc23f2d.bindTooltip(
+                `<div>
+                     School: Katrinebjergskolen<br>Postal District: Aarhus N<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f29f05424ce77c63b163e6c1e48e5e52 = L.marker(
+                [56.260174, 10.342974],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_15c830c5a5c2f6446d0bb4dcf1961252 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_f29f05424ce77c63b163e6c1e48e5e52.setIcon(icon_15c830c5a5c2f6446d0bb4dcf1961252);
+        
+    
+            marker_f29f05424ce77c63b163e6c1e48e5e52.bindTooltip(
+                `<div>
+                     School: Kaløvigskolen<br>Postal District: Skødstrup<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42681505e88ddc526e01a636f9f8c274 = L.marker(
+                [56.11541, 10.197737],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_d264aa924e7e144ffde2891bc4c8283a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_42681505e88ddc526e01a636f9f8c274.setIcon(icon_d264aa924e7e144ffde2891bc4c8283a);
+        
+    
+            marker_42681505e88ddc526e01a636f9f8c274.bindTooltip(
+                `<div>
+                     School: Kragelundskolen<br>Postal District: Højbjerg<br>SID: 16018
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83197488e21300491ccfaef6f2cf3643 = L.marker(
+                [56.218662, 10.157976],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_75d6535c76a6397416f2391bddfa04ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_83197488e21300491ccfaef6f2cf3643.setIcon(icon_75d6535c76a6397416f2391bddfa04ce);
+        
+    
+            marker_83197488e21300491ccfaef6f2cf3643.bindTooltip(
+                `<div>
+                     School: Lisbjergskolen<br>Postal District: Aarhus N<br>SID: 16019
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9eec00dae93f67c77cfce5a00870c1f = L.marker(
+                [56.146378, 10.188354],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_c1602716e80baa076914c2b23783494c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_d9eec00dae93f67c77cfce5a00870c1f.setIcon(icon_c1602716e80baa076914c2b23783494c);
+        
+    
+            marker_d9eec00dae93f67c77cfce5a00870c1f.bindTooltip(
+                `<div>
+                     School: Læssøesgades skole<br>Postal District: Aarhus C<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54fe3eb85a0cd2b2f460cc7593987d81 = L.marker(
+                [56.03915, 10.198192],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_568e373a6b1d095fa2073c98970f6afa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_54fe3eb85a0cd2b2f460cc7593987d81.setIcon(icon_568e373a6b1d095fa2073c98970f6afa);
+        
+    
+            marker_54fe3eb85a0cd2b2f460cc7593987d81.bindTooltip(
+                `<div>
+                     School: Malling Skole<br>Postal District: Malling<br>SID: 16009
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dec8185add021ff26014b238c4e049bc = L.marker(
+                [56.164825, 10.184485],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_6ac3873c92e12e51f4f1465faafcd3e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_dec8185add021ff26014b238c4e049bc.setIcon(icon_6ac3873c92e12e51f4f1465faafcd3e8);
+        
+    
+            marker_dec8185add021ff26014b238c4e049bc.bindTooltip(
+                `<div>
+                     School: Møllevangskolen<br>Postal District: Aarhus V<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1828197508e306e77087285fd274fd67 = L.marker(
+                [56.068867, 10.157019],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_544ecf7f5a8416918a1f4c0205024b45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1828197508e306e77087285fd274fd67.setIcon(icon_544ecf7f5a8416918a1f4c0205024b45);
+        
+    
+            marker_1828197508e306e77087285fd274fd67.bindTooltip(
+                `<div>
+                     School: Mårslet Skole<br>Postal District: Mårslet<br>SID: 16010
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebff091c9bc67bf0bd56657479007cb7 = L.marker(
+                [56.144764, 10.19848],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_30b1194538a2e3f9333215b291725af0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_ebff091c9bc67bf0bd56657479007cb7.setIcon(icon_30b1194538a2e3f9333215b291725af0);
+        
+    
+            marker_ebff091c9bc67bf0bd56657479007cb7.bindTooltip(
+                `<div>
+                     School: Frederiksbjerg skole<br>Postal District: Aarhus C<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3472359587981de607b43a98f5fb235 = L.marker(
+                [56.192966, 10.229043],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_27593c231de7ff27e408c19990b5951c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_a3472359587981de607b43a98f5fb235.setIcon(icon_27593c231de7ff27e408c19990b5951c);
+        
+    
+            marker_a3472359587981de607b43a98f5fb235.bindTooltip(
+                `<div>
+                     School: Risskov Skole<br>Postal District: Risskov<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a30f969c4bcec40f806293d6c35cb542 = L.marker(
+                [56.131271, 10.183323],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_01d8e1c90067261002bbe9a03e3138c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a30f969c4bcec40f806293d6c35cb542.setIcon(icon_01d8e1c90067261002bbe9a03e3138c2);
+        
+    
+            marker_a30f969c4bcec40f806293d6c35cb542.bindTooltip(
+                `<div>
+                     School: Rosenvangskolen<br>Postal District: Viby J<br>SID: 54449
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2306cfd6733520e5217f9c9c7ce4251f = L.marker(
+                [56.118412, 10.178171],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_71b9a83e60c5ba27838a8e1158d52acb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2306cfd6733520e5217f9c9c7ce4251f.setIcon(icon_71b9a83e60c5ba27838a8e1158d52acb);
+        
+    
+            marker_2306cfd6733520e5217f9c9c7ce4251f.bindTooltip(
+                `<div>
+                     School: Rundhøjskolen<br>Postal District: Højbjerg<br>SID: 16020
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42a2d36f9a5b7b3616bf07f5a0173bdf = L.marker(
+                [56.211243, 10.023426],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_cd611eecbdb2f818d61179733c830dd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_42a2d36f9a5b7b3616bf07f5a0173bdf.setIcon(icon_cd611eecbdb2f818d61179733c830dd5);
+        
+    
+            marker_42a2d36f9a5b7b3616bf07f5a0173bdf.bindTooltip(
+                `<div>
+                     School: Sabro-Korsvejskolen<br>Postal District: Sabro<br>SID: 16023
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48fd2f505f44bc4d7270b4527f7fcac9 = L.marker(
+                [56.162449, 10.20254],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_3c14d1fe6a65d2a0601bb7bd47147da5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_48fd2f505f44bc4d7270b4527f7fcac9.setIcon(icon_3c14d1fe6a65d2a0601bb7bd47147da5);
+        
+    
+            marker_48fd2f505f44bc4d7270b4527f7fcac9.bindTooltip(
+                `<div>
+                     School: Samsøgades Skole<br>Postal District: Aarhus C<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7c54d6c692323dc3818b24c0294cbe6 = L.marker(
+                [56.175533, 10.208733],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_3ddb62dd70b1c2602162e63ea64d20fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_d7c54d6c692323dc3818b24c0294cbe6.setIcon(icon_3ddb62dd70b1c2602162e63ea64d20fd);
+        
+    
+            marker_d7c54d6c692323dc3818b24c0294cbe6.bindTooltip(
+                `<div>
+                     School: Skovvangskolen<br>Postal District: Aarhus N<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb61f9b6aef69eac247804040a4841c1 = L.marker(
+                [56.271587, 10.308501],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_af7fff222572cd9bb89b2aa98e2ed169 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_cb61f9b6aef69eac247804040a4841c1.setIcon(icon_af7fff222572cd9bb89b2aa98e2ed169);
+        
+    
+            marker_cb61f9b6aef69eac247804040a4841c1.bindTooltip(
+                `<div>
+                     School: Skødstrup Skole<br>Postal District: Skødstrup<br>SID: 16011
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3597deffc91204b8898bcab9dee2e2f0 = L.marker(
+                [56.104164, 10.207989],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_ddab15b3a7970ffff5270532ea52f785 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3597deffc91204b8898bcab9dee2e2f0.setIcon(icon_ddab15b3a7970ffff5270532ea52f785);
+        
+    
+            marker_3597deffc91204b8898bcab9dee2e2f0.bindTooltip(
+                `<div>
+                     School: Skåde Skole<br>Postal District: Højbjerg<br>SID: 16024
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61b925421eec66423235b72afb1d1b96 = L.marker(
+                [56.042149, 10.084158],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_19d0553c694d95d48996f3ed3b736286 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_61b925421eec66423235b72afb1d1b96.setIcon(icon_19d0553c694d95d48996f3ed3b736286);
+        
+    
+            marker_61b925421eec66423235b72afb1d1b96.bindTooltip(
+                `<div>
+                     School: Solbjergskolen<br>Postal District: Solbjerg<br>SID: 16014
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a804504ca054e2543a659401c9c32ebe = L.marker(
+                [56.200199, 10.244444],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_078989eef6ac8dd9eed930f36613b212 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_a804504ca054e2543a659401c9c32ebe.setIcon(icon_078989eef6ac8dd9eed930f36613b212);
+        
+    
+            marker_a804504ca054e2543a659401c9c32ebe.bindTooltip(
+                `<div>
+                     School: Strandskolen<br>Postal District: Risskov<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab1fdfab930c47d4c5ec255a5934dbea = L.marker(
+                [56.211697, 10.283297],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_4a2acf01e6c7b1e88df80543f3a06c82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ab1fdfab930c47d4c5ec255a5934dbea.setIcon(icon_4a2acf01e6c7b1e88df80543f3a06c82);
+        
+    
+            marker_ab1fdfab930c47d4c5ec255a5934dbea.bindTooltip(
+                `<div>
+                     School: Sølystskolen<br>Postal District: Egå<br>SID: 16025
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_058f4a453d904281a229744fb8fbcfcb = L.marker(
+                [56.111263, 10.149488],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_7d68fec6d297c076390d8557e1eadbdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_058f4a453d904281a229744fb8fbcfcb.setIcon(icon_7d68fec6d297c076390d8557e1eadbdd);
+        
+    
+            marker_058f4a453d904281a229744fb8fbcfcb.bindTooltip(
+                `<div>
+                     School: Søndervangskolen<br>Postal District: Viby J<br>SID: 16016
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8a330ecc80f4660ba7e53d69f5d5575 = L.marker(
+                [56.189537, 10.113276],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_647bf8ad539b3583f16e58fef573c76c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b8a330ecc80f4660ba7e53d69f5d5575.setIcon(icon_647bf8ad539b3583f16e58fef573c76c);
+        
+    
+            marker_b8a330ecc80f4660ba7e53d69f5d5575.bindTooltip(
+                `<div>
+                     School: Tilst Skole<br>Postal District: Tilst<br>SID: 16012
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92fe0e8f58ce432d5b386f34f252516e = L.marker(
+                [56.288342, 10.216692],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_d4112e5cabaf14bee6e144261d9cb638 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_92fe0e8f58ce432d5b386f34f252516e.setIcon(icon_d4112e5cabaf14bee6e144261d9cb638);
+        
+    
+            marker_92fe0e8f58ce432d5b386f34f252516e.bindTooltip(
+                `<div>
+                     School: Hårup Skole<br>Postal District: Hjortshøj<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba9418828e1b0f8b92fa8962d54daae4 = L.marker(
+                [56.090076, 10.14048],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_5d829e014e53c6b4707c846c7e6a43ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_ba9418828e1b0f8b92fa8962d54daae4.setIcon(icon_5d829e014e53c6b4707c846c7e6a43ee);
+        
+    
+            marker_ba9418828e1b0f8b92fa8962d54daae4.bindTooltip(
+                `<div>
+                     School: Tranbjergskolen<br>Postal District: Tranbjerg J<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68cebf80553077069418c303a36ad2f6 = L.marker(
+                [56.129375, 10.156499],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_574be6924befdc34328e6831ec04bbc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_68cebf80553077069418c303a36ad2f6.setIcon(icon_574be6924befdc34328e6831ec04bbc3);
+        
+    
+            marker_68cebf80553077069418c303a36ad2f6.bindTooltip(
+                `<div>
+                     School: Vestergårdsskolen<br>Postal District: Viby J<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0d8d7b5196c207b94b832fc3a4d7d34 = L.marker(
+                [56.127964, 10.164447],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_b49640df92a12582392ae3361e11fe1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f0d8d7b5196c207b94b832fc3a4d7d34.setIcon(icon_b49640df92a12582392ae3361e11fe1b);
+        
+    
+            marker_f0d8d7b5196c207b94b832fc3a4d7d34.bindTooltip(
+                `<div>
+                     School: Viby Skole<br>Postal District: Viby J<br>SID: 22229
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75872eb2e15af3fdd14831d892d45c1a = L.marker(
+                [56.243191, 10.272163],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_e406f496cb387dd4975e8f4e49dfdc2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_75872eb2e15af3fdd14831d892d45c1a.setIcon(icon_e406f496cb387dd4975e8f4e49dfdc2c);
+        
+    
+            marker_75872eb2e15af3fdd14831d892d45c1a.bindTooltip(
+                `<div>
+                     School: Virupskolen<br>Postal District: Hjortshøj<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ec08bd9d4fb107269b70d9c32d9b2df = L.marker(
+                [56.185951, 10.199095],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_2d42fc517db95e01d939bcb7de17a61f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_6ec08bd9d4fb107269b70d9c32d9b2df.setIcon(icon_2d42fc517db95e01d939bcb7de17a61f);
+        
+    
+            marker_6ec08bd9d4fb107269b70d9c32d9b2df.bindTooltip(
+                `<div>
+                     School: Vorrevangskolen<br>Postal District: Aarhus N<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e21f9320c5616f939f6a6bac9fb4554b = L.marker(
+                [56.150635, 10.164974],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_fd5ba08629162d7f6818743057bd6f9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_e21f9320c5616f939f6a6bac9fb4554b.setIcon(icon_fd5ba08629162d7f6818743057bd6f9b);
+        
+    
+            marker_e21f9320c5616f939f6a6bac9fb4554b.bindTooltip(
+                `<div>
+                     School: Åby Skole<br>Postal District: Åbyhøj<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1210d0335113de53f7ec073880c35329 = L.marker(
+                [56.146523, 9.9988079],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_1e3a795744192d82dec1598e9b912e27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_1210d0335113de53f7ec073880c35329.setIcon(icon_1e3a795744192d82dec1598e9b912e27);
+        
+    
+            marker_1210d0335113de53f7ec073880c35329.bindTooltip(
+                `<div>
+                     School: Næshøjskolen<br>Postal District: Harlev J<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6872a239f00de336b105b5ca72f60a35 = L.marker(
+                [56.226681, 10.298241],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_f6bc4c9ef5543ecfbf317de1daf23b5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6872a239f00de336b105b5ca72f60a35.setIcon(icon_f6bc4c9ef5543ecfbf317de1daf23b5d);
+        
+    
+            marker_6872a239f00de336b105b5ca72f60a35.bindTooltip(
+                `<div>
+                     School: Skæring Skole<br>Postal District: Egå<br>SID: 16015
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15de90624b0e876e238f317a2ec6e851 = L.marker(
+                [56.174107, 10.113787],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_2474dc816bf2799104cb72f089c6b7f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "sun", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_15de90624b0e876e238f317a2ec6e851.setIcon(icon_2474dc816bf2799104cb72f089c6b7f9);
+        
+    
+            marker_15de90624b0e876e238f317a2ec6e851.bindTooltip(
+                `<div>
+                     School: Skjoldhøjskolen<br>Postal District: Tilst<br>SID: 16021
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02c0f14721b75af4048f63678ce499ba = L.marker(
+                [56.236736, 10.229774],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_992a8192f70c4a7e53452eba0f543eee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_02c0f14721b75af4048f63678ce499ba.setIcon(icon_992a8192f70c4a7e53452eba0f543eee);
+        
+    
+            marker_02c0f14721b75af4048f63678ce499ba.bindTooltip(
+                `<div>
+                     School: Lystrup Skole<br>Postal District: Lystrup<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5bf2fe469d739fabf1e0cbf9274b650 = L.marker(
+                [56.118366, 10.133548],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_5f5cdee4418b4da93c80df98a13f5499 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_c5bf2fe469d739fabf1e0cbf9274b650.setIcon(icon_5f5cdee4418b4da93c80df98a13f5499);
+        
+    
+            marker_c5bf2fe469d739fabf1e0cbf9274b650.bindTooltip(
+                `<div>
+                     School: Langagerskolen<br>Postal District: Viby J<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_180468623e62a8d43a0e88381fc3f6f1 = L.marker(
+                [56.213264, 10.171948],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_57c35a998a351ad346f6def393970031 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_180468623e62a8d43a0e88381fc3f6f1.setIcon(icon_57c35a998a351ad346f6def393970031);
+        
+    
+            marker_180468623e62a8d43a0e88381fc3f6f1.bindTooltip(
+                `<div>
+                     School: Netværksskolen<br>Postal District: Aarhus N<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3849ae3722eb2079c742baef7c2f2eb1 = L.marker(
+                [56.169418, 10.150394],
+                {}
+            ).addTo(map_98233b1e55c7a83c48738731f24ff627);
+        
+    
+            var icon_5cf8894d9998f957c595e95ecb18c9b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "times", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_3849ae3722eb2079c742baef7c2f2eb1.setIcon(icon_5cf8894d9998f957c595e95ecb18c9b5);
+        
+    
+            marker_3849ae3722eb2079c742baef7c2f2eb1.bindTooltip(
+                `<div>
+                     School: Ellehøjskolen<br>Postal District: Aarhus V<br>SID: 0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

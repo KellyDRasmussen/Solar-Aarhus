@@ -1,0 +1,50 @@
+_id,Periode,Skolekode,Skolenavn,Antal,lat,lng,Adresse,Postnr,Postdist,LINK,Ledernavn,Ledermail,Opdateret
+1,202405,751903,Stensagerskolen,272,56.166771,10.137611,Janesvej 2,8220,Brabrand,https://stensagerskolen.aarhus.dk,Susanne Vestergaard Hjermitslev,shv@aarhus.dk,2024-05-07T07:15:00
+2,202405,751002,Bakkegårdsskolen,371,56.253349,10.148964,Bjørnshøjvej 1,8380,Trige,https://bakkegaardsskolen.aarhus.dk/,Dick Douglas Glintborg,gdd@aarhus.dk,2024-05-07T07:15:00
+3,202405,751003,Ellevangskolen,833,56.203037,10.217692,Jellebakken 17,8240,Risskov,https://ellevangskolen.aarhus.dk/,Michael Kjær,mickja@aarhus.dk,2024-05-07T07:15:00
+4,202405,751004,Beder Skole,581,56.061577,10.21161,Skoleparken 6,8330,Beder,https://bederskole.aarhus.dk/,Lars Lykkegaard,laly@aarhus.dk,2024-05-07T07:15:00
+5,202405,751006,Elev Skole,215,56.241188,10.199622,Høvej 10,8520,Lystrup,https://elevhaarup.aarhus.dk/,Jens Mathiasen,jenma@aarhus.dk,2024-05-07T07:15:00
+6,202405,751007,Elsted Skole,813,56.241524,10.228948,Elsted Skolevej 6,8520,Lystrup,https://elstedskole.aarhus.dk/,Kristian Spang,skrm@aarhus.dk,2024-05-07T07:15:00
+7,202405,751008,Engdalskolen,1021,56.152943,10.109608,Hovedgaden 5,8220,Brabrand,https://engdalskolen.aarhus.dk/,Louise Schmidt,lousc@aarhus.dk,2024-05-07T07:15:00
+8,202405,751013,Gammelgaardsskolen,1034,56.159332,10.157077,Carit Etlars Vej 31,8230,Åbyhøj,https://gammelgaardsskolen.aarhus.dk/,Susanne Broe Laursen,subrl@aarhus.dk,2024-05-07T07:15:00
+9,202405,751014,Sødalskolen,258,56.150375,10.136786,Louisevej 29,8220,Brabrand,https://soedalskolen.aarhus.dk,Irina Frello Hansen,ifh@aarhus.dk,2024-05-07T07:15:00
+10,202405,751015,Hasle Skole,714,56.169296,10.16368,Herredsvej 15,8210,Aarhus V,https://hasleskole.aarhus.dk/,Lone Grosen,logro@aarhus.dk,2024-05-07T07:15:00
+11,202405,751016,Bavnehøj Skole,668,56.106026,10.096877,Koltvej 17,8361,Hasselager,https://bavnehoejskole.aarhus.dk/,Rasmus Dalager Jørgensen,rdj@aarhus.dk,2024-05-07T07:15:00
+12,202405,751017,Holme Skole,511,56.116238,10.178248,Mølleskovvej 11,8270,Højbjerg,https://holmeskole.aarhus.dk,Sonja Pedersen,sonjped@aarhus.dk,2024-05-07T07:15:00
+13,202405,751018,Højvangskolen,811,56.129898,10.115003,Klokkeskovvej 1,8260,Viby J,https://hoejvangskolen.aarhus.dk,Ivan Børsting,ivbo@aarhus.dk,2024-05-07T07:15:00
+14,202405,751019,Katrinebjergskolen,696,56.173824,10.196321,Katrinebjergvej 60,8200,Aarhus N,https://katrinebjergskolen.aarhus.dk,Christian Hyltoft Hellum,chyhel@aarhus.dk,2024-05-07T07:15:00
+15,202405,751020,Kaløvigskolen,34,56.260174,10.342974,Sanatorievej 38,8541,Skødstrup,,Michael Laursen,miclau@aarhus.dk,2024-05-07T07:15:00
+16,202405,751021,Kragelundskolen,841,56.11541,10.197737,Aage Jedichs Vej 3,8270,Højbjerg,https://kragelundskolen.aarhus.dk,Vibeke Kjær Agger,vkag@aarhus.dk,2024-05-07T07:15:00
+17,202405,751022,Lisbjergskolen,431,56.218662,10.157976,Jørgen Clevins Gade 31,8200,Aarhus N,https://lisbjergskolen.aarhus.dk,Martin Appel Loft,maral@aarhus.dk,2024-05-07T07:15:00
+18,202405,751023,Læssøesgades skole,360,56.146378,10.188354,Læssøesgade 24,8000,Aarhus C,https://laessoesgadesskole.aarhus.dk/,Hans Mørk,hansm@aarhus.dk,2024-05-07T07:15:00
+19,202405,751024,Malling Skole,625,56.03915,10.198192,Lundshøjgårdsvej 19,8340,Malling,https://mallingskole.aarhus.dk,Gitte Annelise Nielsen,giani@aarhus.dk,2024-05-07T07:15:00
+20,202405,751025,Møllevangskolen,462,56.164825,10.184485,Møllevangs Allé 20,8210,Aarhus V,https://moellevangskolen.aarhus.dk,Thomas Christian Trønning,tct@aarhus.dk,2024-05-07T07:15:00
+21,202405,751026,Mårslet Skole,856,56.068867,10.157019,Testrupvej 4,8320,Mårslet,https://maarsletskole.aarhus.dk,Inge Pedersen,iped@aarhus.dk,2024-05-07T07:15:00
+22,202405,751027,Frederiksbjerg skole,867,56.144764,10.19848,Ingerslevs Boulevard 2A,8000,Aarhus C,https://frederiksbjergskole.aarhus.dk,Peder Jensen Pedersen,pjpe@aarhus.dk,2024-05-07T07:15:00
+23,202405,751032,Risskov Skole,992,56.192966,10.229043,Vestre Strandallé 97,8240,Risskov,https://risskovskole.aarhus.dk,Preben Stadsgaard,preso@aarhus.dk,2024-05-07T07:15:00
+24,202405,751033,Rosenvangskolen,641,56.131271,10.183323,Rosenvangs Allé 49,8260,Viby J,https://rosenvangskolen.aarhus.dk,Jasper Staffensen,jasst@aarhus.dk,2024-05-07T07:15:00
+25,202405,751034,Rundhøjskolen,579,56.118412,10.178171,Holmevej 200,8270,Højbjerg,https://rundhoejskolen.aarhus.dk,Mads Neergaard Jacobsen,mnj@aarhus.dk,2024-05-07T07:15:00
+26,202405,751035,Sabro-Korsvejskolen,647,56.211243,10.023426,Sabro Skolevej 4A,8471,Sabro,https://sabrokorsvejskolen.aarhus.dk,Stine Valsgaard Tegen,svt@aarhus.dk,2024-05-07T07:15:00
+27,202405,751036,Samsøgades Skole,483,56.162449,10.20254,Ny Munkegade 17,8000,Aarhus C,https://samsoegadesskole.aarhus.dk,Trine Romby Kolbeck,trko@aarhus.dk,2024-05-07T07:15:00
+28,202405,751038,Skovvangskolen,576,56.175533,10.208733,Skovvangsvej 150,8200,Aarhus N,https://skovvangskolen.aarhus.dk,Søren Hildebrand,sohi@aarhus.dk,2024-05-07T07:15:00
+29,202405,751039,Skødstrup Skole,1319,56.271587,10.308501,Rosenbakken 4,8541,Skødstrup,https://skoedstrupskole.aarhus.dk,Søren Skalkhøj Petersen,sospe@aarhus.dk,2024-05-07T07:15:00
+30,202405,751040,Skåde Skole,587,56.104164,10.207989,Mantziusvej 5,8270,Højbjerg,https://skaadeskole.aarhus.dk,Mogens Steen Petersen,mope@aarhus.dk,2024-05-07T07:15:00
+31,202405,751041,Solbjergskolen,845,56.042149,10.084158,Kærgårdsvej 4,8355,Solbjerg,https://solbjergskolen.aarhus.dk,Jens Kristensen,jenkr@aarhus.dk,2024-05-07T07:15:00
+32,202405,751042,Strandskolen,725,56.200199,10.244444,Nellikevej 1,8240,Risskov,https://strandskolen.aarhus.dk,Kristine Ravn Fogemann,krf@aarhus.dk,2024-05-07T07:15:00
+33,202405,751043,Sølystskolen,739,56.211697,10.283297,Egå Havvej 5,8250,Egå,https://soelystskolen.aarhus.dk,Janus Laier,jasajel@aarhus.dk,2024-05-07T07:15:00
+34,202405,751044,Søndervangskolen,337,56.111263,10.149488,Søndervangs Allé 40,8260,Viby J,https://soendervangskolen.aarhus.dk,Claus Brønderup Sørensen,clabs@aarhus.dk,2024-05-07T07:15:00
+35,202405,751045,Tilst Skole,602,56.189537,10.113276,Tåstumvænget 8,8381,Tilst,https://tilstskole.aarhus.dk,Lone Gunhild Margrethe Jørgensen,logmaj@aarhus.dk,2024-05-07T07:15:00
+36,202405,751046,Hårup Skole,328,56.288342,10.216692,Salonikivej 14,8530,Hjortshøj,https://elevhaarup.aarhus.dk,Jens Mathiasen,jenma@aarhus.dk,2024-05-07T07:15:00
+37,202405,280458,Tranbjergskolen,1054,56.090076,10.14048,Kirketorvet 22,8310,Tranbjerg J,https://tranbjergskolen.aarhus.dk,Birgitte Agersnap,agbi@aarhus.dk,2024-05-07T07:15:00
+38,202405,751050,Vestergårdsskolen,461,56.129375,10.156499,Nordbyvej 25,8260,Viby J,https://vestergaardsskolen.aarhus.dk,Lisbet Collett-Overgaard,lisco@aarhus.dk,2024-05-07T07:15:00
+39,202405,751051,Viby Skole,506,56.127964,10.164447,Kirkevej 2A,8260,Viby J,https://vibyskole.aarhus.dk,Dorte Marianne Jensen,domjen@aarhus.dk,2024-05-07T07:15:00
+40,202405,751052,Virupskolen,647,56.243191,10.272163,Virupvej 75,8530,Hjortshøj,https://virupskolen.aarhus.dk,Martin Christensen,martchr@aarhus.dk,2024-05-07T07:15:00
+41,202405,751053,Vorrevangskolen,469,56.185951,10.199095,Vorregårds Allé 109,8200,Aarhus N,https://vorrevangskolen.aarhus.dk,Lars B. Poulsen,larsbp@aarhus.dk,2024-05-07T07:15:00
+42,202405,751054,Åby Skole,766,56.150635,10.164974,Åbyvej 80,8230,Åbyhøj,https://aabyskole.aarhus.dk,Ole Buskbjerg Thomasen,obt@aarhus.dk,2024-05-07T07:15:00
+43,202405,751055,Næshøjskolen,573,56.146523,9.9988079,Gammel Stillingvej 424A,8462,Harlev J,https://naeshoejskolen.aarhus.dk,Lars Mølgaard,larmo@aarhus.dk,2024-05-07T07:15:00
+44,202405,751056,Skæring Skole,826,56.226681,10.298241,Skæring Skolevej 200,8250,Egå,https://skaeringskole.aarhus.dk,Anne Schwartz,schw@aarhus.dk,2024-05-07T07:15:00
+45,202405,751065,Skjoldhøjskolen,452,56.174107,10.113787,Skjoldhøjvej 11,8381,Tilst,https://skjoldhoejskolen.aarhus.dk,Astrid Bernhard,asbe@aarhus.dk,2024-05-07T07:15:00
+46,202405,751066,Lystrup Skole,527,56.236736,10.229774,Lystrupvej 256A,8520,Lystrup,https://lystrupskole.aarhus.dk,Katja Franziska Uth,ukf@aarhus.dk,2024-05-07T07:15:00
+47,202405,751090,Langagerskolen,279,56.118366,10.133548,Bøgeskov Høvej 10,8260,Viby J,https://langagerskolen.aarhus.dk,Jens Frostholm,jfro@aarhus.dk,2024-05-07T07:15:00
+48,202405,751221,Netværksskolen,51,56.213264,10.171948,Randersvej 302,8200,Aarhus N,,Jens Erik Stryhn,jeris@aarhus.dk,2024-05-07T07:15:00
+49,202405,281401,Ellehøjskolen,266,56.169418,10.150394,Jernaldervej 5,8210,Aarhus V,https://ellehoejskolen.aarhus.dk,Helle Mønster,helmo@aarhus.dk,2024-05-07T07:15:00
