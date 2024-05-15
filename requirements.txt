@@ -1,0 +1,18 @@
+# Jupyter and Notebook Libraries
+jupyter
+notebook
+
+# Data Handling and Analysis
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Web Scraping (if needed for data collection)
+requests
+beautifulsoup4
+
+# API Handling (if needed for data collection)
+requests
