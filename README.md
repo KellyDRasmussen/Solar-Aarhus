@@ -21,7 +21,7 @@ The data collection process will involve:
 
 This project will be organized as a Jupyter Notebook-based data analysis project, with the following structure:
 ```plaintext
-solar-for-schools-denmark/
+Solar-Aarhus/
 ├── data/
 │   ├── raw/
 │   ├── processed/
