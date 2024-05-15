@@ -1,0 +1,13 @@
+﻿Column;Type;Label;Beskrivelse
+Periode;text;Periode år/måned;
+Skolekode;text;Skolekode;
+Skolenavn;text;Navn på skole;
+Antal;int4;Antal elever;
+lat;float8;Breddegrad;
+lng;float8;Længdegrad;
+Adresse;text;;
+Postnr;int4;;
+Postdist;text;Postdistrikt;
+LINK;text;Hjemmeside adresse på skolen;
+Ledernavn;text;Skoleleder;
+Ledermail;text;Skolelederens mail adresse;
