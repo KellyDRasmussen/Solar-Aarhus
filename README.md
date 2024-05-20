@@ -1,4 +1,4 @@
-# Solar for Schools in Denmark
+# Solar for Schools in Denmark?
 
 ## Project Overview
 
