@@ -56,7 +56,7 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Contact
-For any questions or inquiries, please contact Kelly.
+For any questions or inquiries, please contact Kelly. (I'm taking a little break until 1st June as it is crunch-period for my final project at Redi School)
 
 ### Acknowledgments
 Special thanks to Solar for Schools for inspiring this project. https://www.solarforschools.co.uk/about/vision
